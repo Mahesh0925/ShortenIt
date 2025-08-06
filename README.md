@@ -45,17 +45,24 @@ A full-stack URL shortener application built with the MERN stack (MongoDB, Expre
 ## 📂 Folder Structure
 
 Frontend/
-├── src/
-│ ├── components/
-│ ├── pages/
-│ └── App.jsx
-└── index.html
+├── Page/ # Route-based pages (e.g., Home, Dashboard)
+├── components/ # Reusable UI components
+├── context/ # React context for state management
+├── utils/ # Helper utility functions
+├── App.jsx # Main React component with routes/layout
+├── main.jsx # React entry point
+└── index.css # Global CSS using Tailwind
 
 Backend/
-├── routes/
-├── controllers/
-├── models/
-└── server.js
+├── config/ # Database and app config
+├── controller/ # Request handling logic (controllers)
+├── middleware/ # Express middlewares (e.g., auth)
+├── models/ # Mongoose data models
+├── routes/ # API route definitions
+├── utils/ # Utility/helper functions
+├── server.js # Entry point for the server
+├── package.json # Node.js project metadata
+└── package-lock.json
 
 ---
 
